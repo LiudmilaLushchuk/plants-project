@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Poppins&display=swap");
+@import "header/header";
+@import "header/top-navbar";
+@import "header/bottom-navbar";
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+}

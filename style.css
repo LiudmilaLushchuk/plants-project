@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Poppins&display=swap");
+.navbar {
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.1490196078);
+}
+
+.top-navbar {
+  background-color: #0c4b35;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.top-navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+}
+
+.top-navbar-contacts {
+  display: flex;
+  gap: 30px;
+}
+
+.contacts-item {
+  padding-left: 35px;
+}
+
+.email {
+  background-image: url(images/email1.svg);
+  background-repeat: no-repeat;
+}
+
+.phone {
+  background-image: url(images/phone-call1.svg);
+  background-repeat: no-repeat;
+}
+
+.adress {
+  background-image: url(images/location1.svg);
+  background-repeat: no-repeat;
+}
+
+.contacts-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top-navbar-leng {
+  position: relative;
+  background-image: url(images/Down\ Arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+  padding-right: 17px;
+  cursor: pointer;
+}
+
+.leng-list {
+  display: none;
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+
+.leng-list-item {
+  background-color: #0c4b35;
+  border: 1px solid #0c4b35;
+  padding: 2px 5px;
+}
+
+.top-navbar-leng:hover .leng-list {
+  display: block;
+}
+
+.leng-list-item:hover {
+  background-color: #27f6ae;
+  color: #0c4b35;
+}
+
+@media (max-width: 1200px) {
+  .contacts-item a {
+    display: none;
+  }
+}
+.bottom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  flex: 1 0 23%;
+}
+
+.header-menu {
+  flex: 3 0 10%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 44px;
+}
+
+.item-vector {
+  background-image: url(images/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 17px;
+}
+
+.header-list-item a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #212529;
+}
+
+.header-list-item:hover a {
+  color: #00730c;
+}
+
+.item-vector:hover {
+  background-image: url(images/Vector1.svg);
+}
+
+.call-us-button {
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00730c;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn-call {
+  padding: 10px 35px 10px 70px;
+  background-image: url(images/phone.svg);
+  background-repeat: no-repeat;
+  background-position: 20% 40%;
+}
+
+@media (max-width: 1200px) {
+  .header-menu {
+    display: none;
+  }
+  .btn-call {
+    width: 40px;
+    height: 34px;
+    padding: 20px 25px;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .btn-call span {
+    display: none;
+  }
+  .hamburger {
+    background-image: url(images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+}
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

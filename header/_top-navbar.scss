@@ -1,0 +1,66 @@
+.top-navbar {
+  background-color: #0c4b35;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+.top-navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0;
+}
+.top-navbar-contacts {
+  display: flex;
+  gap: 30px;
+}
+.contacts-item {
+  padding-left: 35px;
+}
+.email {
+  background-image: url(images/email1.svg);
+  background-repeat: no-repeat;
+}
+.phone {
+  background-image: url(images/phone-call1.svg);
+  background-repeat: no-repeat;
+}
+.adress {
+  background-image: url(images/location1.svg);
+  background-repeat: no-repeat;
+}
+.contacts-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.top-navbar-leng {
+  position: relative;
+  background-image: url(images/Down\ Arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+  padding-right: 17px;
+  cursor: pointer;
+}
+.leng-list {
+  display: none;
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+.leng-list-item {
+  background-color: #0c4b35;
+  border: 1px solid #0c4b35;
+  padding: 2px 5px;
+}
+.top-navbar-leng:hover .leng-list {
+  display: block;
+}
+.leng-list-item:hover {
+  background-color: #27f6ae;
+  color: #0c4b35;
+}
+@media (max-width: 1200px) {
+  .contacts-item a {
+    display: none;
+  }
+}

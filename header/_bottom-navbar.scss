@@ -1,0 +1,82 @@
+.bottom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.logo {
+  flex: 1 0 23%;
+}
+.header-menu {
+  flex: 3 0 10%;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.header-menu-list {
+  display: flex;
+  gap: 44px;
+}
+.item-vector {
+  background-image: url(images/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 17px;
+}
+.header-list-item a {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  color: #212529;
+}
+.header-list-item:hover a {
+  color: #00730c;
+}
+.item-vector:hover {
+  background-image: url(images/Vector1.svg);
+}
+.call-us-button {
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00730c;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.btn-call {
+  padding: 10px 35px 10px 70px;
+  background-image: url(images/phone.svg);
+  background-repeat: no-repeat;
+  background-position: 20% 40%;
+}
+@media (max-width: 1200px) {
+  .header-menu {
+    display: none;
+  }
+  .btn-call {
+    width: 40px;
+    height: 34px;
+    padding: 20px 25px;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .btn-call span {
+    display: none;
+  }
+  .hamburger {
+    background-image: url(images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+}
